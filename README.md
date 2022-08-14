@@ -14,7 +14,7 @@ _kubectl create clusterrolebinding "cluster-admin-$(whoami)" --clusterrole=clust
   
 #### Installing WeaveScope
   
-  _kubectl appy -f scope.yaml_
+  _kubectl appy -f weave.yaml_
   
   This will deploy weave scope in cluster and launches a probe onto every node as well as a single Scope app. Once launched, Scope doesn’t require any other configuration.
   
